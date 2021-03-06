@@ -15,6 +15,11 @@ test.csv - 80 features without the sale price. This file use to predict and subm
 
 DSI_project2_ver4.ipynb - This file contain the process of doing analysis [read file / EDA / clean data / create model / visualization / conclusion & suggestion] step by step
 
+KaggleScore.JPG - show score for submission on Kaggle
+
+submission file:
+  - contain 5 versions from different model which predict from the file test.csv to submit to kaggle
+
 ### Conclusion:
 
 The reason why I use lasso model because it's work better on unseen data as you can see on cross_val score. Although RMSE of train model is a bit better but lasso do a better performance on prediction on unseen data
