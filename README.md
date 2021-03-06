@@ -1,4 +1,5 @@
-# DSIProject2
+# DSI Project 2 (DSI Project 2 Regression Challenge)
+
 
 This notebook analysis Aimes House sale prices. The data is show as the price in Aimes, lowa. The data contains more than 80 features to evaluates house sale prices.
 
