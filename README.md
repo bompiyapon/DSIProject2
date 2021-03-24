@@ -5,7 +5,9 @@ This notebook analysis Aimes House sale prices. The data is show as the price in
 
 ### Problem Statement: 
 
-I am a agency of consultant company which give an advice to the houseowner to increase their sell price. And also real estate agent or broker who looking to investing to build houses and sold to make profit. I will find out which factor they need to focus in order improve the Sale price of the house. And I will also generalize model of prediction to see is it can modelize to another city or not.
+I am a agency of consultant company which give an advice to the real estate company which looking for building new house and do interior / outerior decoration for sale .To increase their sell price of the house to maximize their profit, I will find out which factor they need to focus in order improve the Sale price of the house. And I will also generalize model of prediction to see is it can modelize to another city or not.
+
+In case they have limited budget I will help them to focus on the feature / quality to maximize their profit the most
 
 ### About the file:
 
@@ -22,8 +24,12 @@ submission file:
 
 ### Conclusion:
 
-The reason why I use lasso model because it's work better on unseen data as you can see on cross_val score. Although RMSE of train model is a bit better but lasso do a better performance on prediction on unseen data
+The reason why I use lasso model because it's work better on unseen data as you can see on RMSE test score of the lasso is least. And the model is quite not overfitting
 
-In my opinion these model are generalize. As you can see from the lasso coefficient which top feature that effect the sale price is very general. Only the neighborhood that is specific in this city. However, I think it can be adapt neighborhood with the location in other city.
+Recommendation for real estate agent for building new house and decorate it
 
-About the error of prediction is around 21,000 - 22,000. Therefore, this model works great on the price between 3,560 - 340,000 dollars (approximately). If it's out of this range the error of price prediction will increase and prediction can be far from the actual price. (As I do the outlier the price of this range can do a wrong decision)
+Build house in 5 this area. Stone Brook, Northrdige Heights, Northridge, Green Hill, Veenker
+Having a big area of living
+Focus on building kitchen with good quality will significantly increase the saleprice of the house
+Don't use Clay or Tile as a roof material will significantly drop the price. Others material are fine don't have a big different effect on sale price.
+Should avoid building dwelling type of Townhouse End Unit will drop the house sale price.
